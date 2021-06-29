@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>Formulário</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="container">
+          <div class="page-header">
+              <h1>Formulário Bootstrap</h1>
+          </div>
+
+          <div class="row">
+              <div class="col-sm-8">
+                <h3>Cadastre-se</h3>
+                <form>
+
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id=nome>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id=email>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="senha" class="form-control" id=senha>
+                    </div>
+                    
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Aceite os termos de serviço.
+                        </label>
+                    </div>
+
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="opcoes"> Front-End
+                        </label>
+
+                        <label>
+                            <input type="radio" name="opcoes"> Back-End
+                        </label>
+
+                        <label>
+                            <input type="radio" name="opcoes"> Full Stack
+                        </label>
+
+                    </div>
+
+                    <div class="checkbox">
+                        <h3>Principais Habilidades Práticas</h3>
+                        <label>
+                            <input type="checkbox">Python
+                        </label>
+
+                        <label>
+                            <input type="checkbox">Java
+                        </label>
+                        <label>
+                            <input type="checkbox">PHP
+                        </label>
+
+                        <label>
+                            <input type="checkbox">HTML5
+                        </label>
+
+                        <label>
+                            <input type="checkbox">CSS3
+                        </label>
+
+                        <label>
+                            <input type="checkbox">JavaScript
+                        </label>
+
+                        <label>
+                            <input type="checkbox">TypScript
+                        </label>
+
+                        <label>
+                            <input type="checkbox">React-Native
+                        </label>
+
+                        <label>
+                            <input type="checkbox">ReactjS
+                        </label>
+
+                        <label>
+                            <input type="checkbox">Angular
+                        </label>
+
+                        <label>
+                            <input type="checkbox">Node.js
+                        </label>
+
+                        <label>
+                            <input type="checkbox">Banco de Dados
+                        </label>
+
+                        <label>
+                            <input type="checkbox">Git
+                        </label>
+
+                        <label>
+                            <input type="checkbox">Docker
+                        </label>
+
+                        <label>
+                            <input type="checkbox">.NET
+                        </label>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+                </form>
+              
+              </div>
+
+              <div class="col-sm-4">
+                <h3>Logar</h3>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+
+                </div>
+
+                <div class="form-group">
+                    <input type="password" class="form-control" id="senha" placeholder="digite sua senha">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+              
+              </div>
+                          
+
+          </div>
+
+      </div>
+      
+  
+
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+  
+</html>
